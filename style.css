@@ -190,7 +190,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -253,6 +253,41 @@ opacity: 1;
 
 section.portifolio h2{
     margin-bottom: 40px;
+}
+
+.logo-footer img{
+    height: 150px;
+    width: 150px;
+}
+
+/* ESTILO DO RODAPE */
+
+footer{
+    padding: 60px 4%;
+}
+
+footer .flex{
+    justify-content: space-between;
+    align-items:  center;
+}
+
+
+.borda{
+    border-top: 2px solid #00FF08; 
+    
+}
+
+footer .line-footer p{
+    padding-top: 25px;
+}
+
+footer .line-footer p i{
+    color: #00FF08;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: #fff;
 }
 
 
